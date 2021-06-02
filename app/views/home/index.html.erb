@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pratheeksha N's Art website</title>
+  <style>
+  	
+  		 h1 {
+          background-color: lightgray;
+        color: red;
+        padding: 22px;
+        font-style: italic;
+          font-size: 40px;
+          text-align: center;
+
+      }
+  	
+  </style>
+   <p id="notice"><%= notice %></p>
+
+<h1>Users</h1>
+
+<%= link_to 'Sign In ', new_login_session_path %>
+<br>
+<p> If not an user then Create a user</p>
+<%= link_to 'User Table', users_path %>
+<br>
+<%= link_to 'Create User', new_user_path %>
+
+</html>
